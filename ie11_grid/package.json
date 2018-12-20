@@ -1,0 +1,10 @@
+{
+  "name": "myproject",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "parcel": "^1.11.0",
+    "sass": "^1.15.2"
+  }
+}
