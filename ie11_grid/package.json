@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build_for_github_pages": "parcel build index.html -d ../docs --no-source-maps --public-url ./"
+    "build": "parcel build index.html -d ../docs --no-source-maps --public-url ./"
   },
   "devDependencies": {
     "autoprefixer": "^9.4.3",

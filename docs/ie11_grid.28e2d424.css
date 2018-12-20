@@ -1,1 +1,70 @@
-@charset "UTF-8";body,html{height:100%}body{margin:0;padding:0;overflow:hidden;font-family:-apple-system,游ゴシック Medium,Yu Gothic Medium,游ゴシック体,YuGothic,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic ProN,メイリオ,Meiryo,sans-serif;-webkit-font-feature-settings:"palt";font-feature-settings:"palt"}.container{width:100%;height:100%}.container>*{display:flex;justify-content:center;align-items:center;color:#fff;font-size:2rem;font-weight:700;letter-spacing:.1em}header{background:#3498db}aside{background:#e67e22}main{background:#2ecc71}footer{background:#95a5a6}.container{display:-ms-grid;display:grid;gap:10px;-ms-grid-rows:50px 10px 1fr 10px 50px;-ms-grid-columns:200px 10px 1fr;grid-template:"header header" 50px "aside  main" 1fr "aside  footer" 50px/200px 1fr}.container header{-ms-grid-row:1;-ms-grid-column:1;-ms-grid-column-span:3;grid-area:header}.container aside{-ms-grid-row:3;-ms-grid-row-span:3;-ms-grid-column:1;grid-area:aside}.container main{-ms-grid-row:3;-ms-grid-column:3;grid-area:main}.container footer{-ms-grid-row:5;-ms-grid-column:3;grid-area:footer}
+@charset "UTF-8";
+body,
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: -apple-system, 游ゴシック Medium, Yu Gothic Medium, 游ゴシック体,
+    YuGothic, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic ProN, メイリオ, Meiryo,
+    sans-serif;
+  -webkit-font-feature-settings: "palt";
+  font-feature-settings: "palt";
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+header {
+  background: #3498db;
+}
+aside {
+  background: #e67e22;
+}
+main {
+  background: #2ecc71;
+}
+footer {
+  background: #95a5a6;
+}
+.container {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-rows: 50px 10px 1fr 10px 50px;
+  -ms-grid-columns: 200px 10px 1fr;
+  grid-template: "header header" 50px "aside  main" 1fr "aside  footer" 50px/200px 1fr;
+}
+.container header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+}
+.container aside {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: aside;
+}
+.container main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: main;
+}
+.container footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: footer;
+}
