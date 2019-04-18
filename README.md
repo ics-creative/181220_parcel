@@ -1,3 +1,3 @@
-# Sassのモダンなコンパイル環境が3分で作れるParcel入門
+ICS MEDIAの記事『[Sassの変換にオススメ！ Parcel入門](https://ics.media/entry/19580)』で紹介したコードを掲載します。
 
-ICS MEDIA記事「[Sassのモダンなコンパイル環境が3分で作れるParcel入門 \- 独自設定ファイルは不要 \- ICS MEDIA](https://ics.media/entry/19580)」で紹介したコードを掲載しています。
+コードの内容について、詳しくは記事を参照ください。
