@@ -1,10 +1,11 @@
 {
   "scripts": {
+    "serve": "parcel index.html",
     "build": "parcel build index.html -d ../docs --no-source-maps --public-url ./"
   },
   "devDependencies": {
-    "autoprefixer": "^9.4.3",
-    "parcel": "^1.11.0",
-    "sass": "^1.15.2"
+    "autoprefixer": "^9.7.4",
+    "parcel": "1.12.4",
+    "sass": "^1.25.0"
   }
 }
