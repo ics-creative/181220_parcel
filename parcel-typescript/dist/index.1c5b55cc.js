@@ -1,0 +1,1 @@
+const e=`東京の気温は${27}度です`;document.querySelector("#weather").textContent=e;

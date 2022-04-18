@@ -1,0 +1,14 @@
+{
+  "name": "parcel-sass",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-source-maps --public-url ./"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "autoprefixer": "^10.4.4",
+    "parcel": "^2.4.1",
+    "sass": "^1.50.0"
+  }
+}

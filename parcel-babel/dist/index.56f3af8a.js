@@ -1,0 +1,1 @@
+const e=`岐阜県の気温は${14}度です`;document.querySelector("#weather").textContent=e;

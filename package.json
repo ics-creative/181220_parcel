@@ -1,0 +1,10 @@
+{
+  "name": "181220_parcel",
+  "version": "1.0.0",
+  "workspaces": [
+    "parcel-sass",
+    "parcel-typescript",
+    "parcel-babel"
+  ],
+  "private": true
+}

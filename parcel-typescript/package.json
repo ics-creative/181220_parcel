@@ -1,0 +1,12 @@
+{
+  "name": "parcel-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-source-maps --public-url ./"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  },
+  "private": true
+}
